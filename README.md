@@ -9,7 +9,7 @@ Este repositório apresenta a modelagem de um banco de dados para gerenciamento 
 
 # 1️⃣ Modelo Conceitual
 
-![Modelo Conceitual](escola_idioma_conceitual.png)
+![Modelo Conceitual](modelo_conceitual/escola_idioma_conceitual.png)
 
 O Modelo Conceitual representa as entidades principais do sistema e como elas se relacionam. Ele é independente de tecnologia de banco de dados e foca apenas na estrutura lógica do domínio.
 
@@ -134,7 +134,7 @@ Professor (1,1) —— (0,n) Turma
 
 # 2️⃣ Modelo Lógico
 
-![Modelo Lógico](escola_idioma_logico.png)
+![Modelo Lógico](modelo_logico/escola_idioma_logico.png)
 
 O Modelo Lógico traduz o modelo conceitual para uma estrutura compatível com bancos de dados relacionais (ex: MySQL, PostgreSQL, SQL Server).
 
