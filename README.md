@@ -4,6 +4,7 @@ Este repositório apresenta a modelagem de um banco de dados para gerenciamento 
 
 **Modelo Conceitual (MER)** – visão de alto nível das entidades e relacionamentos.
 **Modelo Lógico (Relacional)** – estrutura já preparada para implementação em um banco de dados relacional.
+**Modelo Físico** – estrutura pronta para implementação direta no SGBD, com definição de tipos de dados, índices, constraints e detalhes de armazenamento.
 
 ---
 
