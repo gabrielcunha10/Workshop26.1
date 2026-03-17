@@ -1,7 +1,7 @@
 /* escola_idioma_logico: */
 
 CREATE TABLE aluno (
-    id_aluno INT AUTO_INCREMENT PRIMARY KEY,
+    id_aluno INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     cpf CHAR(11),
     nome_aluno VARCHAR(100),
     email VARCHAR(255),
@@ -10,7 +10,7 @@ CREATE TABLE aluno (
 );
 
 CREATE TABLE matricula (
-    id_matricula INT AUTO_INCREMENT PRIMARY KEY,
+    id_matricula INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     data_matricula DATE,
     fk_aluno_id_aluno INT,
     fk_turma_id_turma INT
@@ -24,7 +24,7 @@ CREATE TABLE curso (
 );
 
 CREATE TABLE turma (
-    id_turma INT AUTO_INCREMENT PRIMARY KEY,
+    id_turma INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     horario TIME,
     fk_curso_id_curso INT,
     fk_professor_id_professor INT,
@@ -32,7 +32,7 @@ CREATE TABLE turma (
 );
 
 CREATE TABLE professor (
-    id_professor INT AUTO_INCREMENT PRIMARY KEY,
+    id_professor INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     nome_professor VARCHAR(100),
     email VARCHAR(255),
     cpf CHAR(11),
