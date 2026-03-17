@@ -17,14 +17,14 @@ CREATE TABLE matricula (
 );
 
 CREATE TABLE curso (
-    id_curso INT PRIMARY KEY,
+    id_curso INT AUTO_INCREMENT PRIMARY KEY,
     idioma VARCHAR(20),
     carga_horaria INT,
     nivel VARCHAR(20)
 );
 
 CREATE TABLE turma (
-    id_turma INT PRIMARY KEY,
+    id_turma INT AUTO_INCREMENT PRIMARY KEY,
     horario TIME,
     fk_curso_id_curso INT,
     fk_professor_id_professor INT,
@@ -32,7 +32,7 @@ CREATE TABLE turma (
 );
 
 CREATE TABLE professor (
-    id_professor INT PRIMARY KEY,
+    id_professor INT AUTO_INCREMENT PRIMARY KEY,
     nome_professor VARCHAR(100),
     email VARCHAR(255),
     cpf CHAR(11),
