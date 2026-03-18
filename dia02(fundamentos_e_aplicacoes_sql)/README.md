@@ -5,10 +5,10 @@ para gerenciamento de **clientes e pedidos** utilizando SQL.
 
 O projeto inclui:
 
--   Criação de schema\
--   Criação de tabelas\
--   Inserção de dados\
--   Atualização de dados (DML)\
+-   Criação de schema
+-   Criação de tabelas
+-   Inserção de dados
+-   Atualização de dados (DML)
 -   Consultas com JOIN, GROUP BY e funções agregadas
 
 ------------------------------------------------------------------------
@@ -34,16 +34,16 @@ Armazena os dados dos clientes cadastrados no sistema.
 
 **Atributos:**
 
--   id_cliente (PK)\
--   nome\
--   sobrenome\
--   cpf\
+-   id_cliente (PK)
+-   nome
+-   sobrenome
+-   cpf
 -   email
 
 **Regras:**
 
--   **Chave primária:** id_cliente\
--   **Restrição UNIQUE:** cpf\
+-   **Chave primária:** id_cliente
+-   **Restrição UNIQUE:** cpf
 -   **Restrição UNIQUE:** email
 
 ------------------------------------------------------------------------
@@ -54,18 +54,18 @@ Armazena os pedidos realizados pelos clientes.
 
 **Atributos:**
 
--   id_pedido (PK)\
--   data_pedido\
--   id_cliente (FK)\
--   forma_pagamento\
+-   id_pedido (PK)
+-   data_pedido
+-   id_cliente (FK)
+-   forma_pagamento
 -   valor_pedido
 
 **Regras:**
 
--   **Chave primária:** id_pedido\
--   **Chave estrangeira:** id_cliente → clientes(id_cliente)\
+-   **Chave primária:** id_pedido
+-   **Chave estrangeira:** id_cliente → clientes(id_cliente)
 -   **ON DELETE CASCADE:** se um cliente for removido, seus pedidos
-    também são excluídos\
+    também são excluídos
 -   **data_pedido** é preenchida automaticamente usando
     `CURRENT_TIMESTAMP`
 
@@ -124,7 +124,7 @@ Armazena os pedidos realizados pelos clientes.
 Foram inseridos dados de exemplo para simular o funcionamento do
 sistema:
 
--   **15 clientes**\
+-   **15 clientes**
 -   **15 pedidos**
 
 ------------------------------------------------------------------------
@@ -212,16 +212,16 @@ Este projeto tem como objetivo:
 
 ## DDL (Data Definition Language)
 
--   `CREATE`\
--   `DROP`\
--   `SCHEMA`\
+-   `CREATE`
+-   `DROP`
+-   `SCHEMA`
 -   `TABLE`
 
 ------------------------------------------------------------------------
 
 ## DML (Data Manipulation Language)
 
--   `INSERT`\
+-   `INSERT`
 -   `UPDATE`
 
 ------------------------------------------------------------------------
@@ -234,7 +234,7 @@ Este projeto tem como objetivo:
 
 Também demonstra o uso de:
 
--   **JOIN**\
--   **GROUP BY**\
--   **HAVING**\
+-   **JOIN**
+-   **GROUP BY**
+-   **HAVING**
 -   **Funções agregadas (MAX, SUM, AVG)**
