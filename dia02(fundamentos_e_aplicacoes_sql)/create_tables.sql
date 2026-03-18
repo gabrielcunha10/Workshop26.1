@@ -1,12 +1,12 @@
 -- Crie um novo Schema com nome DESAFIO
 
-CREATE SCHEMA IF NOT EXISTS desafio;
+CREATE SCHEMA desafio;
 
 USE desafio;
 
 -- Crie duas novas tabelas com pelo menos 4 colunas cada (não esqueça de indicar o Primary Key)
 
-CREATE TABLE IF NOT EXISTS clientes (
+CREATE TABLE clientes (
 	id_cliente INT NOT NULL AUTO_INCREMENT,
 	nome VARCHAR(50) NOT NULL,
     sobrenome VARCHAR(50) NULL,
@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS clientes (
     PRIMARY KEY (id_cliente)
 );
 
-CREATE TABLE IF NOT EXISTS pedidos (
+CREATE TABLE pedidos (
 	id_pedido INT NOT NULL AUTO_INCREMENT,
     data_pedido DATETIME NOT NULL DEFAULT current_timestamp, -- o current_timestamp serve para preencher automaticamente a data e hora ao inserir algum dado.
     id_cliente INT NOT NULL,
