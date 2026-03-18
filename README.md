@@ -1,4 +1,4 @@
-# 📚 Workshop de Dados -- Fábrica de Software
+# 📚 Workshop de Dados 26.1 -- Fábrica de Software
 
 Este repositório documenta o aprendizado ao longo do workshop de dados, com duração de 14 dias, abordando desde a modelagem até a manipulação de dados com SQL.
 
