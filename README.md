@@ -1,95 +1,98 @@
 # 📚 Workshop de Dados 2026.1 -- Fábrica de Software
 
-Este repositório documenta o aprendizado ao longo do workshop de dados, com duração de 14 dias, abordando desde a modelagem até a manipulação de dados com SQL.
+Este repositório documenta o aprendizado ao longo do workshop de dados, seguindo a evolução por dias.
 
-------------------------------------------------------------------------
+---
 
 # 🗓️ Dia 1 -- Modelagem de Banco de Dados
 
-No primeiro dia, foi apresentada a base da construção de um banco de dados, passando pelos principais níveis de modelagem.
-
-------------------------------------------------------------------------
+No primeiro dia, foi apresentada a base da construção de um banco de dados.
 
 ## Modelo Conceitual (MER)
 
-- Definição de entidades, atributos e relacionamentos
-- Uso de cardinalidade
-- Independente de SGBD
-
-------------------------------------------------------------------------
+* Entidades, atributos e relacionamentos
+* Cardinalidade
+* Independente de SGBD
 
 ## Modelo Lógico
 
-- Conversão para tabelas
-- Definição de chaves primárias (PK)
-- Definição de chaves estrangeiras (FK)
-- Tipos de dados
-
-------------------------------------------------------------------------
+* Conversão para tabelas
+* Chaves primárias (PK)
+* Chaves estrangeiras (FK)
 
 ## Modelo Físico
 
-- Estrutura pronta para implementação
-- Uso de constraints e regras
+* Implementação no banco
+* Constraints e regras
 
-------------------------------------------------------------------------
+## 🎯 Objetivo
 
-# 🎯 Objetivo do Dia 1
+Transformar regras de negócio em estrutura de banco de dados.
 
-Compreender como transformar uma regra de negócio em estrutura de banco de dados.
-
-------------------------------------------------------------------------
+---
 
 # 🗓️ Dia 2 -- SQL na Prática
 
-No segundo dia, o foco foi a implementação e manipulação dos dados utilizando SQL.
+Foco na manipulação de dados utilizando SQL.
 
-------------------------------------------------------------------------
+## DDL
 
-## DDL (Data Definition Language)
+* CREATE
+* DROP
+* TABLE
 
-- CREATE
-- DROP
-- TABLE
+## DML
 
-Criação de tabelas com chaves e relacionamentos.
+* INSERT
+* UPDATE
 
-------------------------------------------------------------------------
+## DQL
 
-## DML (Data Manipulation Language)
+* SELECT
+* JOIN
+* GROUP BY
+* HAVING
 
-- INSERT
-- UPDATE
+Funções:
 
-Inserção e alteração de dados no banco.
+* COUNT
+* SUM
+* AVG
+* MAX
 
-------------------------------------------------------------------------
+## 🎯 Objetivo
 
-## DQL (Data Query Language)
+Criar, manipular e consultar dados.
 
-- SELECT
-- JOIN
-- GROUP BY
-- HAVING
+---
 
-Uso de funções agregadas:
+# 🗓️ Dia 3 -- Análise de Dados com Python
 
-- COUNT
-- SUM
-- AVG
-- MAX
+Introdução à análise de dados com Python utilizando três bibliotecas principais responsáveis por processamento, organização e visualização de dados.
 
-------------------------------------------------------------------------
+## 📚 O Trio Essencial
 
-# 🎯 Objetivo do Dia 2
+* **NumPy** → computação numérica eficiente com arrays e operações matemáticas
+* **Pandas** → manipulação e organização de dados em estruturas tabulares (DataFrame)
+* **Matplotlib** → criação de gráficos para visualização de dados
 
-Aprender a criar, manipular e consultar dados dentro do banco.
+## 📌 Principais Conceitos
 
-------------------------------------------------------------------------
+* Uso de arrays multidimensionais para cálculos rápidos
+* Manipulação de dados em formato de tabela
+* Aplicação de funções estatísticas como média, soma e máximo
+* Criação de gráficos para análise visual
+
+## 🎯 Objetivo
+
+Compreender como trabalhar com dados em Python, passando pelas etapas de processamento, organização e visualização.
+
+---
 
 # 🚀 Progresso
 
 1. Modelagem de dados
-2. Implementação com SQL
+2. SQL
+3. Análise de dados com Python
 
-Base construída para evolução nos próximos dias do workshop.
+Evolução do banco de dados para análise de dados.
