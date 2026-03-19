@@ -1,6 +1,6 @@
 # 📚 Workshop de Dados 2026.1 -- Fábrica de Software
 
-Este repositório documenta o aprendizado ao longo do workshop de dados, seguindo a evolução por dias.
+Este repositório documenta o meu aprendizado ao longo do workshop de dados, seguindo a evolução por dias.
 
 ---
 
