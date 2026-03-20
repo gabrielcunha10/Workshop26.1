@@ -49,14 +49,14 @@ df = pd.read_csv('bmw_global_sales_dataset.csv')
 
 ## 🔄 Etapas do Projeto
 
--   Carregamento e exploração dos dados\
--   Tratamento de valores nulos\
--   Criação da variável alvo\
--   Codificação de variáveis categóricas\
--   Normalização dos dados\
--   Divisão em treino e teste\
--   Treinamento de modelos de classificação\
--   Avaliação dos resultados
+- Carregamento e exploração dos dados
+- Tratamento de valores nulos
+- Criação da variável alvo
+- Codificação de variáveis categóricas
+- Normalização dos dados
+- Divisão em treino e teste
+- Treinamento de modelos de classificação
+- Avaliação dos resultados
 
 ------------------------------------------------------------------------
 
