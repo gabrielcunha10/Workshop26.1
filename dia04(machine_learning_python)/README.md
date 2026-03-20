@@ -9,12 +9,14 @@ mediana.
 
 ## 📁 Estrutura do Repositório
 
+```
 📦 Workshop26.1
  ┣ 📂 dia04(machine_learning_python)
  ┃ ┣ 📂 tabela_utilizada
  ┃ ┃ ┗ 📄 bmw_global_sales_dataset.csv
  ┃ ┗ 📄 desafio_19_03.ipynb
  ┗ 📄 README.md
+```
 
 ------------------------------------------------------------------------
 
