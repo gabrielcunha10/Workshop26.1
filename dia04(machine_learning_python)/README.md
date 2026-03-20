@@ -22,7 +22,7 @@ classificação binária.
 
 Construir um modelo de classificação que determine:
 
--   Classe 1 → vendas acima da mediana\
+-   Classe 1 → vendas acima da mediana
 -   Classe 0 → vendas abaixo ou iguais à mediana
 
 ------------------------------------------------------------------------
@@ -47,16 +47,16 @@ df = pd.read_csv('tabela_utilizada/bmw_global_sales_dataset.csv')
 
 Foram utilizadas funções para entender o dataset:
 
--   `head()` → visualizar registros iniciais\
--   `info()` → tipos de dados\
+-   `head()` → visualizar registros iniciais
+-   `info()` → tipos de dados
 -   `describe()` → estatísticas descritivas
 
 ------------------------------------------------------------------------
 
 ## 🧹 Tratamento dos Dados
 
--   Verificação de valores nulos\
--   Criação da variável target com base na mediana de `units_sold`\
+-   Verificação de valores nulos
+-   Criação da variável target com base na mediana de `units_sold`
 -   Seleção das variáveis relevantes
 
 ``` python
@@ -68,14 +68,14 @@ df['target'] = (df['units_sold'] > limite).astype(int)
 
 ## ⚙️ Pré-processamento
 
--   Codificação de variáveis categóricas com `get_dummies()`\
+-   Codificação de variáveis categóricas com `get_dummies()`
 -   Normalização dos dados com `StandardScaler`
 
 ------------------------------------------------------------------------
 
 ## 🔢 Separação dos Dados
 
--   Definição de variáveis independentes (X) e dependente (y)\
+-   Definição de variáveis independentes (X) e dependente (y)
 -   Divisão em treino e teste com `train_test_split`
 
 ------------------------------------------------------------------------
@@ -84,8 +84,8 @@ df['target'] = (df['units_sold'] > limite).astype(int)
 
 Foram utilizados três modelos:
 
--   Regressão Logística\
--   Árvore de Decisão\
+-   Regressão Logística
+-   Árvore de Decisão
 -   Random Forest
 
 ------------------------------------------------------------------------
@@ -115,5 +115,5 @@ joblib.dump(modelo_rf, 'modelo_bmw.pkl')
 
 O projeto seguiu todas as etapas de um pipeline de Machine Learning,
 desde o tratamento dos dados até a construção, avaliação e salvamento do
-modelo, permitindo a realização de previsões futuras sem necessidade de
+modelo, alcançando 84.6%, perto do limite (85%). Isso permitiu a realização de previsões futuras sem necessidade de
 novo treinamento.
